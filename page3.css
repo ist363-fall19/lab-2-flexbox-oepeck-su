@@ -1,1 +1,50 @@
 body {font:18px/1.25 'Arial', sans-serif; }
+
+html{
+    margin: 0px auto;
+}
+
+body{
+    margin: 0px auto;
+    align-content: center;
+}
+
+.tweet-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.tweet-item{
+    margin:10px;
+    padding: 20px;
+    border: 1px solid #3d3d3d;
+    height: 100%;
+}
+
+.tweet-header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.tweet-header img{
+    margin-right: 10px;
+}
+
+.tweet-header a{
+    margin-left: 10px;
+}
+
+.tweet-body{
+    padding: 20px 0px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.tweet-footer{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
